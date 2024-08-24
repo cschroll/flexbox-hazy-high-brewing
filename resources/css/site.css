@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+
+header {
+    height: 70px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+header h1 {
+    font-family: "Damion", sans-serif;
+    float: left;   
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu {
+    float: right;    
+    margin-right: 40px;
+}
+
+.menu a {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    padding: 14px 16px;    
+}
+
+.menu a:hover {
+    color: grey;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mission {
+    background-image: url("../images/hazy-clouds.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    margin-bottom: 50px;   
+}
+
+#mission #mission-text {
+    background-color: white;  
+    padding: 15px;  
+}
+
+#mission h2 {
+    margin-bottom: 10px;
+}
+
+#beers {
+    width: 1000px;  
+    margin-bottom: 50px;    
+}
+
+#beers h2 {
+    margin-bottom: 10px;
+}
+
+#beers-of-the-month {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+#beers-of-the-month img {
+    height: 200px;
+    width: 160px;
+}
+
+.beer-box {
+    margin: 15px;
+}
+
+#team {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#team h2 {
+    margin-bottom: 10px;
+}
+
+#team-members {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+#team-members img {
+    height: 400px;
+    width: 300px;
+}
+
+.team-member-box {
+    margin: 15px;
+}
+
+#contact-info {
+    display: flex;    
+    flex-direction: column;     
+    height: 100px;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 10px;
+}
