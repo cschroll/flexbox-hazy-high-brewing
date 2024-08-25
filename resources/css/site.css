@@ -63,7 +63,9 @@ main {
 }
 
 #mission #mission-text {
-    background-color: white;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding: 15px;  
 }
 
@@ -99,9 +101,11 @@ main {
 #team {
     width: 100%;
     margin-bottom: 50px;
+    background-color: lightyellow;
 }
 
 #team h2 {
+    padding: 20px;
     margin-bottom: 10px;
 }
 
