@@ -100,13 +100,13 @@ main {
 
 #team {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
     background-color: lightyellow;
 }
 
 #team h2 {
-    padding: 20px;
-    margin-bottom: 10px;
+    padding: 1.25rem;
+    margin-bottom: 0.625rem;
 }
 
 #team-members {
@@ -116,14 +116,46 @@ main {
     flex-wrap: wrap;  
 }
 
-#team-members img {
-    height: 400px;
-    width: 300px;
+.team-member-box {
+    margin: 0.9375rem;
 }
 
-.team-member-box {
-    margin: 15px;
+#team-members img {
+    height: 25rem;
+    width: 18.75rem;
 }
+
+@media only screen and (max-width: 895px) {
+    #team {
+      padding: 1rem;
+    }
+  
+    #team-members {
+      margin: 0px .5rem;
+      padding: 1rem;
+    }
+  
+    #team-members h2 {
+      font-size: 2rem;
+      line-height: 1.3;
+    } 
+  }
+
+@media only screen and (max-width: 600px) {
+    #team {
+      flex-flow: column;
+      padding: 0;
+    }
+  
+    #team-members {
+      margin: 0;
+      padding: 1.25rem 1rem 0 1rem;
+    }
+  
+    #team-members .team-member-box {
+      padding: 1.25rem 0 1.875rem 0;
+    }
+  }  
 
 #contact-info {
     display: flex;    
